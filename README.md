@@ -1,5 +1,5 @@
 # μblogr
 
-Simple web app built in Rails. You can see it in action [here] (http://mblog.herokuapp.com)
+Simple web app built in Rails. You can see it in action [here] (http://mblogr.herokuapp.com)
 
 by [Krishn Ramesh] (http://krishn.me)
