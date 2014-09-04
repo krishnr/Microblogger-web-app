@@ -1,6 +1,14 @@
-<h1>Microblogger</h1>
-<p>
-  This is the home page for the
-  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-  microblogger.
-</p>
+<div class ="center hero-unit">
+	<h1>μblogr</h1>
+	<h2>
+	  The home page for the
+	  most overly done project on the internet -- a microblogging service.
+	</h2>
+
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<div id="builtWith">
+	<span> Built with <%= link_to image_tag("rails.png", alt: "Rails"), "http://rubyontrails.org/" %>
+	</span>
+</div>
