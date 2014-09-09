@@ -1,6 +1,23 @@
+<% if signed_in? %>
+  <div class="row">
+    <aside class="span4">
+      <section>
+        <%= render 'shared/user_info' %>
+      </section>
+      <section>
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+     <div class="span8">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
 <div class ="center hero-unit">
 	<h1>μblogr</h1>
-	<h2>
+	
+  <h2>
 	  The home page for the
 	  most overly done project on the internet -- a microblogging service.
 	</h2>
@@ -12,3 +29,4 @@
 	<span> Built with <%= link_to image_tag("rails.png", alt: "Rails"), "http://rubyontrails.org/" %>
 	</span>
 </div>
+<% end %>
